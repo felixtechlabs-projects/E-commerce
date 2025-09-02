@@ -1,7 +1,7 @@
 // About.jsx
 import React from "react";
 
-export default function About() {
+ function About() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Store",
@@ -271,3 +271,6 @@ function ArrowIcon() {
     </svg>
   );
 }
+
+
+export default About;
